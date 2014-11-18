@@ -49,24 +49,9 @@ $$\frac{\partial u}{\partial t}
 
 
 ###Tag inline:
-```
-This equation {% math \cos 2\theta = \cos^2 \theta - \sin^2 \theta =  2 \cos^2 \theta - 1 %} is inline.
-```
-###效果
 This equation {% math \cos 2\theta = \cos^2 \theta - \sin^2 \theta =  2 \cos^2 \theta - 1 %} is inline.
 
-
-###Tag Block:
-```
-{% math-block %}
-\begin{aligned}
-\dot{x} & = \sigma(y-x) \\
-\dot{y} & = \rho x - y - xz \\
-\dot{z} & = -\beta z + xy
-\end{aligned}
-{% endmath-block %}
-```
-###效果
+###tag block
 {% math-block %}
 \begin{aligned}
 \dot{x} & = \sigma(y-x) \\
